@@ -1,6 +1,6 @@
 {% set name = "cardiac-geometries-core" %}
 {% set python_min = "3.10" %}
-{% set version = "1.2.2" %}
+{% set version = "1.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cardiac_geometries_core-{{ version }}.tar.gz
-  sha256: 9315616f47e70387048325035f2a6888fdf857710b03352bbfe09ca28659da4c
+  sha256: cb56c5ca7f8c2bc42db09edd18d257305a89b855bcc9c9c8d265849abcdb93b9
 
 build:
   number: 0
